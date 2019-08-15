@@ -26,6 +26,7 @@ routes.get('/providers', ProviderController.index);
 
 routes.post('/appointments', AppointmentController.store);
 routes.get('/appointments', AppointmentController.index);
+routes.delete('/appointment/:id', AppointmentController.delete);
 
 routes.get('/shedule', ScheduleController.index);
 
